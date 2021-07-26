@@ -1,0 +1,14 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "boilerplate",
+    "password": "password",
+    "database": "boilerplate",
+    "entities": ["dist/**/entities/*{.ts,.js}"],
+    "synchronize": true,
+    "migrations": ["src/migrations/*{.ts,.js}"],
+    "cli": {
+        "migrationsDir": "src/migrations"
+    }
+}
